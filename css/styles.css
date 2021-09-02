@@ -1,3 +1,23 @@
 #page1, #page2, #page3, #page4, #page5, #page6, #page7, #page8, #page9,#page10,#page11,#page12, #page13, #page14, #page15, #page15, #page16, #page17, #page18, #page19, #page20{
   display:none
 }
+
+body { 
+  background-image: url(../img/warehouseinterior.jpg);
+  background-size: cover;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.text-block {
+  background-color: rgba(0, 0, 0, 0.247);
+  font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron h1{
+  font-size: 90px;
+}
+
+.jumbotron {
+  background-color: rgba(77, 74, 74, 0.473);
+}
