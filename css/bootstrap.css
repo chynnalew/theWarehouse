@@ -234,7 +234,7 @@ button:focus {
 }
 
 input,
-button,
+button
 select,
 optgroup,
 textarea {
@@ -244,12 +244,12 @@ textarea {
   line-height: inherit;
 }
 
-button,
+button
 input {
   overflow: visible;
 }
 
-button,
+button
 select {
   text-transform: none;
 }
@@ -262,7 +262,7 @@ select {
   word-wrap: normal;
 }
 
-button,
+button
 [type="button"],
 [type="reset"],
 [type="submit"] {
@@ -318,7 +318,7 @@ progress {
   vertical-align: baseline;
 }
 
-[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-inner-spin-button
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
