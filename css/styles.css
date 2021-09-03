@@ -4,20 +4,64 @@
 
 body { 
   background-image: url(../img/warehouseinterior.jpg);
-  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.288);
+  background-blend-mode:color-dodge;
+  background-size:cover;
+  text-shadow: 10px 10px 10px black;
   color: white;
-  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  
 }
 
 .text-block {
-  background-color: rgba(0, 0, 0, 0.247);
+  background-color: rgba(0, 0, 0, 0.541);
+  padding: 30px;
   font-family: 'Roboto', sans-serif;
+  font-weight:bold;
+  font-size: large;
+}
+
+.text-block p{
+  text-align: left;
 }
 
 .jumbotron h1{
   font-size: 90px;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .jumbotron {
-  background-color: rgba(77, 74, 74, 0.473);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.658), black);
+  box-shadow:inset 5px -30px 30px 2px #ffffff;
+}
+
+.button {
+	box-shadow:inset 16px 1px 17px 4px #ffffff;
+	background-color:rgba(255, 255, 255, 0.233);
+	border-radius:6px;
+	border:2px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:'Bebas Neue', cursive;
+	font-size:20px;
+	text-shadow: 3px 3px 6px rgba(245, 245, 245, 0.534);
+	padding:8px 24px;
+  margin: 15px;
+}
+
+.button1 {
+	background-color:rgba(236, 236, 236, 0.158);
+	border-radius:6px;
+  border: 2px solid white;
+  box-shadow: 3px 3px 20px white;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:'Bebas Neue', cursive;
+	font-size: 40px;
+	text-shadow: 6px 6px 15px white;
+	padding:17px;
+  width: 300px;
+  margin: 15px;
 }
