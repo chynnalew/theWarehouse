@@ -20,6 +20,9 @@ body {
   font-weight:bold;
   font-size: large;
 }
+.text-block h1 {
+  font-size: large;
+}
 
 .text-block p{
   text-align: left;
